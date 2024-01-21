@@ -84,4 +84,8 @@ p{
     padding-bottom: 10px;
 }
 
-section{}
+video{
+    height: 500px;
+    width: 100vw;
+    margin: auto;
+}
