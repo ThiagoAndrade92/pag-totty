@@ -13,11 +13,11 @@ body{
 
 main{
     width: 100vw;
-
 }
 
 section.paralax{
     height: 100vh;
+    width: 100vw;
     background-image: url(../imagens/totty-posturado.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,6 +27,7 @@ section.paralax{
 div > img.img-letras{
     display: block;
     height: 100px;
+    width: 100vw;
     margin: 0px auto;
 }
 
