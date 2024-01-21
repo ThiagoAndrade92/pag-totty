@@ -33,6 +33,12 @@ img.geral{
     border-radius: 30px;
 }
 
+p{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
 section.paralax{
     height: 100vh;
     width: 100vw;
@@ -74,6 +80,7 @@ div.anima2{
     margin-bottom: 30px;
     background-image: url(../imagens/face-totty.jpg);
     background-size: cover;
+    background-position: center center;
     background-color: black;
     border-radius: 50%;
     animation: flutuar 2s ease-in-out infinite alternate;
@@ -96,12 +103,6 @@ section > div > h1.titulo-texto1{
     text-shadow: 2px 2px 0px rgba(255, 140, 0, 0.288);
 }
 
-p{
-    text-align: justify;
-    padding: 10px;
-    padding-bottom: 10px;
-}
-
 video{
     height: 500px;
     width: 100vw;
@@ -113,4 +114,46 @@ h1.final-titulo{
     color: rgb(184, 134, 11);
     text-shadow: 2px 2px 0px rgba(184, 134, 0, 0.288);
     padding: 10px;
+}
+
+@media screen and (min-width: 600px){
+    body{
+        background-color: lightblue;
+    }
+
+    main{
+        width: 600px;
+        background-color: white;
+        margin: 0px auto;
+    }
+
+    div#vidio{
+        width: 600px;
+    }
+
+    section.paralax{
+        display: none;
+    }
+    
+    div > img.img-letras{
+        display: none;
+    }
+
+    div.anima2{
+        position: relative;
+        height: 300px;
+        width: 300px;
+        margin: 10px auto;
+        margin-bottom: 30px;
+        background-image: url(../imagens/face-totty.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-color: black;
+        border-radius: 50%;
+        animation: flutuar 2s ease-in-out infinite alternate;
+    }
+
+    video{
+        width: 600px;
+    }
 }
