@@ -15,6 +15,10 @@ main{
     width: 100vw;
 }
 
+div.part{
+    padding-top: 30px;
+}
+
 section.all{
     display: flex;
     flex-direction: column;
