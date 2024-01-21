@@ -1,6 +1,85 @@
 @charset "UTF-8";
 
-bory{
-    height: 100vw;
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
     width: 100vw;
+}
+
+main{
+    width: 100vw;
+    margin: auto;
+
+}
+
+section.paralax{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../imagens/totty-posturado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div > img.img-letras{
+    display: block;
+    height: 100px;
+    margin: 0px auto;
+}
+
+section > div > h1.titulo1{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    color: orange;
+    text-shadow: 2px 2px 0px rgba(255, 166, 0, 0.288);
+}
+
+section > div > h2.titulo2{
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 215, 0);
+    text-shadow: 2px 2px 0px rgba(255, 215, 0, 0.288);
+}
+
+div.anima2{
+    position: relative;
+    height: 200px;
+    width: 50vw;
+    margin: 10px auto;
+    margin-bottom: 30px;
+    background-image: url(../imagens/face-totty.jpg);
+    background-size: cover;
+    background-color: black;
+    border-radius: 50%;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+section > div > h1.titulo-texto1{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 140, 0);
+    text-shadow: 2px 2px 0px rgba(255, 140, 0, 0.288);
+}
+
+p{
+    text-align: justify;
+    padding: 10px;
+    padding-bottom: 10px;
 }
