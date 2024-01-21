@@ -112,4 +112,5 @@ h1.final-titulo{
     text-align: center;
     color: rgb(184, 134, 11);
     text-shadow: 2px 2px 0px rgba(184, 134, 0, 0.288);
+    padding: 10px;
 }
