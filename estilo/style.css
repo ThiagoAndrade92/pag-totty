@@ -13,13 +13,11 @@ body{
 
 main{
     width: 100vw;
-    margin: auto;
 
 }
 
 section.paralax{
     height: 100vh;
-    width: 100vw;
     background-image: url(../imagens/totty-posturado.jpg);
     background-repeat: no-repeat;
     background-size: cover;
