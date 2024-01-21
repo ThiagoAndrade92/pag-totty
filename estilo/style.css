@@ -15,12 +15,27 @@ main{
     width: 100vw;
 }
 
+section.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+img.geral{
+    height: 400px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+    border-radius: 30px;
+}
+
 section.paralax{
     height: 100vh;
     width: 100vw;
     background-image: url(../imagens/totty-posturado.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     background-attachment: fixed;
 }
 
@@ -87,4 +102,10 @@ video{
     height: 500px;
     width: 100vw;
     margin: auto;
+}
+
+h1.final-titulo{
+    text-align: center;
+    color: rgb(184, 134, 11);
+    text-shadow: 2px 2px 0px rgba(184, 134, 0, 0.288);
 }
